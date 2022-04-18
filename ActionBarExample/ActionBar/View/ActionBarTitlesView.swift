@@ -240,9 +240,12 @@ private extension UILabel
     func animateFormattedTextChange(_ newText: String?)
     {
         // TODO: Animation and formatted text
-//        let animation = CATransition.labelTransition()
+        let animation = CATransition()
+        animation.duration = 0.75
 
-//        layer.add(animation, forKey: CATransitionType.fade.rawValue)
+        layer.add(animation, forKey: CATransitionType.fade.rawValue)
+        
+        text = newText
 //
 //        attributedText = newText?.toFormattedText(withFont: font)
     }

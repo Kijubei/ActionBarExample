@@ -78,7 +78,8 @@ private extension ActionBarButtonView
     {
         guard let action: (() -> Void) = pAction else { return }
 
-//        UIView.doHighlightWithAlpha(view: self, alpha: 0.5, reverse: true)
+        doHighlightWithAlpha(alpha: 0.5, reverse: true)
+                
         pImpactFeedbackGenerator.impactOccurred()
         action()
     }
@@ -110,4 +111,38 @@ extension ActionBarButtonView
 private extension CGFloat
 {
     static let horizontalOffset = UIDevice.current.userInterfaceIdiom == .pad ? 20.0 : 6.0
+}
+
+private extension UIView
+{
+    func doHighlightWithAlpha(
+        alpha: CGFloat,
+        reverse: Bool,
+        duration: TimeInterval = 0.25
+    )
+    {
+        let currentAlpha: CGFloat = self.alpha
+
+        let revert: (Bool) -> () = { [weak self] _ in
+            guard
+                reverse,
+                let self = self else
+            {
+                return
+            }
+
+            self.doHighlightWithAlpha(
+                alpha: currentAlpha,
+                reverse: false,
+                duration: duration
+            )
+        }
+
+        UIView.animate(
+            withDuration: duration,
+            animations: { self.alpha = alpha },
+            completion: revert
+        )
+    }
+
 }

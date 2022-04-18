@@ -10,8 +10,6 @@ import Foundation
 import UIKit
 import PureLayout
 
-//private typealias ABP = ActionBarProperties
-
 @objc final class ActionBarPlayground: UIViewController, UITableViewDelegate, UITableViewDataSource
 {
     var propertiesList: [ActionBarProperties] = []
@@ -25,7 +23,7 @@ import PureLayout
         super.viewDidLoad()
         setupViews()
         setupProperties()
-        setupRegularActionbar()
+//        setupRegularActionbar()
         setupAlternativeProperties2()
         setConstrains()
     }
@@ -43,15 +41,6 @@ import PureLayout
     func setConstrains()
     {
         tableView.autoPinEdgesToSuperviewEdges()
-//        if let safeArea = bottomSafeAreaContainer
-//        {
-//            tableView.autoPinEdge(.bottom, to: .top, of: safeArea)
-//        }
-//        else
-//        {
-//            tableView.autoPinEdge(toSuperviewEdge: .bottom)
-//        }
-
     }
 
     // swiftlint:disable function_body_length
@@ -251,7 +240,12 @@ import PureLayout
             stackView.backgroundColor = .yellow
 
             let alertController: UIAlertController = UIAlertController(title: "Attention", message: "Just a test", preferredStyle: .alert)
-            self.present(alertController, animated: true, completion: nil)
+            
+            self.present(alertController, animated: true)
+            {
+                let gesture = UITapGestureRecognizer(target: self, action: #selector(self.dismissAlertController))
+                alertController.view.superview?.addGestureRecognizer(gesture)
+            }
         }
 
         guard let managerButtonIndex: ButtonIndex = alternativeABManager.add(
@@ -282,6 +276,10 @@ import PureLayout
         alternativeABManager.update(buttonType: .featureButton, subtitle: "hot", buttonIndex: laserButtonIndex)
     }
 
+    @objc func dismissAlertController(){
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
         propertiesList.count
