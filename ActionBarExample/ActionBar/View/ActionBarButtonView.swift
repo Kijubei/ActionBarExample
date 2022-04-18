@@ -61,8 +61,8 @@ private extension ActionBarButtonView
         switch properties.titleOrIcon
         {
             case .title:
-                titlesView.autoPinToSuperviewHorizontalEdges(withInset: .horizontalOffset)
-
+                titlesView.autoPinEdge(toSuperviewEdge: .left, withInset: .horizontalOffset)
+                titlesView.autoPinEdge(toSuperviewEdge: .right, withInset: .horizontalOffset)
             case .icon:
                 titlesView.autoPinEdge(toSuperviewEdge: .right)
                 titlesView.autoPinEdge(toSuperviewEdge: .left)
@@ -78,7 +78,7 @@ private extension ActionBarButtonView
     {
         guard let action: (() -> Void) = pAction else { return }
 
-        UIView.doHighlightWithAlpha(view: self, alpha: 0.5, reverse: true)
+//        UIView.doHighlightWithAlpha(view: self, alpha: 0.5, reverse: true)
         pImpactFeedbackGenerator.impactOccurred()
         action()
     }

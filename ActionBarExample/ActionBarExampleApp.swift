@@ -11,7 +11,7 @@ import SwiftUI
 struct ActionBarExampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ActionBarPlaygroundView()
         }
     }
 }

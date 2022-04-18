@@ -21,13 +21,6 @@ public final class ActionBarManagerObjcWrapper: NSObject
         pActionbarManager = ActionBarManager()
     }
 
-    /// The actionBarView is embedded into this container. Add this to your subview and call .autoCreateConstraints()
-    @objc
-    public func bottomSafeAreaContainer() -> UIView
-    {
-        return pActionbarManager.bottomSafeAreaContainer
-    }
-
     /// The main component `ActionBarView` that resulted from the `ActionBarProperties` argument.
     @objc
     public func actionBarView() -> UIView
@@ -51,12 +44,6 @@ public final class ActionBarManagerObjcWrapper: NSObject
     public func infoTextView() -> UIView?
     {
         return pActionbarManager.actionBarView.infoTextButton
-    }
-
-    @objc
-    public func bottomSafeAreaHeight() -> CGFloat
-    {
-        return pActionbarManager.bottomSafeAreaContainer.bounds.size.height
     }
 
     /// Adds a CTA with a title to this `ActionBarManager`, if none exists already.
