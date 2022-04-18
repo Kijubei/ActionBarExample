@@ -19,6 +19,7 @@
 		EACF9E1228019190004A1677 /* ActionBarPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF9E1128019190004A1677 /* ActionBarPlayground.swift */; };
 		EACF9E16280199E8004A1677 /* PureLayout in Frameworks */ = {isa = PBXBuildFile; productRef = EACF9E15280199E8004A1677 /* PureLayout */; };
 		EAD583F1280D4C4500FFCB55 /* ActionBarPlayground+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD583F0280D4C4500FFCB55 /* ActionBarPlayground+SwiftUI.swift */; };
+		EAD583F3280D6D8200FFCB55 /* ActionButtonVariants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD583F2280D6D8200FFCB55 /* ActionButtonVariants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		EACF9E092801914D004A1677 /* ActionBarTitlesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionBarTitlesView.swift; sourceTree = "<group>"; };
 		EACF9E1128019190004A1677 /* ActionBarPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionBarPlayground.swift; sourceTree = "<group>"; };
 		EAD583F0280D4C4500FFCB55 /* ActionBarPlayground+SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ActionBarPlayground+SwiftUI.swift"; sourceTree = "<group>"; };
+		EAD583F2280D6D8200FFCB55 /* ActionButtonVariants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonVariants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				EACF9E1128019190004A1677 /* ActionBarPlayground.swift */,
 				EAD583F0280D4C4500FFCB55 /* ActionBarPlayground+SwiftUI.swift */,
+				EAD583F2280D6D8200FFCB55 /* ActionButtonVariants.swift */,
 				EACF9E002801914D004A1677 /* Manager */,
 				EACF9E042801914D004A1677 /* Model */,
 				EACF9E062801914D004A1677 /* View */,
@@ -195,6 +198,7 @@
 				EACF9E0C2801914D004A1677 /* ActionBarManagerObjcWrapper.swift in Sources */,
 				EACF9E1228019190004A1677 /* ActionBarPlayground.swift in Sources */,
 				EACF9DF228019103004A1677 /* ActionBarExampleApp.swift in Sources */,
+				EAD583F3280D6D8200FFCB55 /* ActionButtonVariants.swift in Sources */,
 				EACF9E0B2801914D004A1677 /* ActionBarManager.swift in Sources */,
 				EACF9E0F2801914D004A1677 /* ActionBarButtonView.swift in Sources */,
 				EACF9E102801914D004A1677 /* ActionBarTitlesView.swift in Sources */,
