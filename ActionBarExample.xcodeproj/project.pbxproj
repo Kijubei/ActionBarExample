@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EACF9DF228019103004A1677 /* ActionBarExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF9DF128019103004A1677 /* ActionBarExampleApp.swift */; };
-		EACF9DF428019103004A1677 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF9DF328019103004A1677 /* ContentView.swift */; };
 		EACF9E0A2801914D004A1677 /* ActionBarManager+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF9E012801914D004A1677 /* ActionBarManager+SwiftUI.swift */; };
 		EACF9E0B2801914D004A1677 /* ActionBarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF9E022801914D004A1677 /* ActionBarManager.swift */; };
 		EACF9E0C2801914D004A1677 /* ActionBarManagerObjcWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF9E032801914D004A1677 /* ActionBarManagerObjcWrapper.swift */; };
@@ -25,7 +24,6 @@
 /* Begin PBXFileReference section */
 		EACF9DEE28019103004A1677 /* ActionBarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActionBarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACF9DF128019103004A1677 /* ActionBarExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionBarExampleApp.swift; sourceTree = "<group>"; };
-		EACF9DF328019103004A1677 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EACF9E012801914D004A1677 /* ActionBarManager+SwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ActionBarManager+SwiftUI.swift"; sourceTree = "<group>"; };
 		EACF9E022801914D004A1677 /* ActionBarManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionBarManager.swift; sourceTree = "<group>"; };
 		EACF9E032801914D004A1677 /* ActionBarManagerObjcWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionBarManagerObjcWrapper.swift; sourceTree = "<group>"; };
@@ -71,7 +69,6 @@
 			children = (
 				EACF9DFF2801914D004A1677 /* ActionBar */,
 				EACF9DF128019103004A1677 /* ActionBarExampleApp.swift */,
-				EACF9DF328019103004A1677 /* ContentView.swift */,
 			);
 			path = ActionBarExample;
 			sourceTree = "<group>";
@@ -194,7 +191,6 @@
 				EAD583F1280D4C4500FFCB55 /* ActionBarPlayground+SwiftUI.swift in Sources */,
 				EACF9E0D2801914D004A1677 /* ActionBarProperties.swift in Sources */,
 				EACF9E0A2801914D004A1677 /* ActionBarManager+SwiftUI.swift in Sources */,
-				EACF9DF428019103004A1677 /* ContentView.swift in Sources */,
 				EACF9E0C2801914D004A1677 /* ActionBarManagerObjcWrapper.swift in Sources */,
 				EACF9E1228019190004A1677 /* ActionBarPlayground.swift in Sources */,
 				EACF9DF228019103004A1677 /* ActionBarExampleApp.swift in Sources */,
