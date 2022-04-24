@@ -8,29 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		EACF9DF228019103004A1677 /* ActionBarExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF9DF128019103004A1677 /* ActionBarExampleApp.swift */; };
-		EACF9E0A2801914D004A1677 /* ActionBarManager+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF9E012801914D004A1677 /* ActionBarManager+SwiftUI.swift */; };
-		EACF9E0B2801914D004A1677 /* ActionBarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF9E022801914D004A1677 /* ActionBarManager.swift */; };
-		EACF9E0C2801914D004A1677 /* ActionBarManagerObjcWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF9E032801914D004A1677 /* ActionBarManagerObjcWrapper.swift */; };
-		EACF9E0D2801914D004A1677 /* ActionBarProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF9E052801914D004A1677 /* ActionBarProperties.swift */; };
-		EACF9E0E2801914D004A1677 /* ActionBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF9E072801914D004A1677 /* ActionBarView.swift */; };
-		EACF9E0F2801914D004A1677 /* ActionBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF9E082801914D004A1677 /* ActionBarButtonView.swift */; };
-		EACF9E102801914D004A1677 /* ActionBarTitlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF9E092801914D004A1677 /* ActionBarTitlesView.swift */; };
 		EACF9E1228019190004A1677 /* ActionBarPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF9E1128019190004A1677 /* ActionBarPlayground.swift */; };
 		EACF9E16280199E8004A1677 /* PureLayout in Frameworks */ = {isa = PBXBuildFile; productRef = EACF9E15280199E8004A1677 /* PureLayout */; };
 		EAD583F1280D4C4500FFCB55 /* ActionBarPlayground+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD583F0280D4C4500FFCB55 /* ActionBarPlayground+SwiftUI.swift */; };
 		EAD583F3280D6D8200FFCB55 /* ActionButtonVariants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD583F2280D6D8200FFCB55 /* ActionButtonVariants.swift */; };
+		EAF544332815516400EBEFE9 /* ActionBar in Frameworks */ = {isa = PBXBuildFile; productRef = EAF544322815516400EBEFE9 /* ActionBar */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EACF9DEE28019103004A1677 /* ActionBarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActionBarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACF9DF128019103004A1677 /* ActionBarExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionBarExampleApp.swift; sourceTree = "<group>"; };
-		EACF9E012801914D004A1677 /* ActionBarManager+SwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ActionBarManager+SwiftUI.swift"; sourceTree = "<group>"; };
-		EACF9E022801914D004A1677 /* ActionBarManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionBarManager.swift; sourceTree = "<group>"; };
-		EACF9E032801914D004A1677 /* ActionBarManagerObjcWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionBarManagerObjcWrapper.swift; sourceTree = "<group>"; };
-		EACF9E052801914D004A1677 /* ActionBarProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionBarProperties.swift; sourceTree = "<group>"; };
-		EACF9E072801914D004A1677 /* ActionBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionBarView.swift; sourceTree = "<group>"; };
-		EACF9E082801914D004A1677 /* ActionBarButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionBarButtonView.swift; sourceTree = "<group>"; };
-		EACF9E092801914D004A1677 /* ActionBarTitlesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionBarTitlesView.swift; sourceTree = "<group>"; };
 		EACF9E1128019190004A1677 /* ActionBarPlayground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionBarPlayground.swift; sourceTree = "<group>"; };
 		EAD583F0280D4C4500FFCB55 /* ActionBarPlayground+SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ActionBarPlayground+SwiftUI.swift"; sourceTree = "<group>"; };
 		EAD583F2280D6D8200FFCB55 /* ActionButtonVariants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonVariants.swift; sourceTree = "<group>"; };
@@ -41,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAF544332815516400EBEFE9 /* ActionBar in Frameworks */,
 				EACF9E16280199E8004A1677 /* PureLayout in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,51 +55,20 @@
 		EACF9DF028019103004A1677 /* ActionBarExample */ = {
 			isa = PBXGroup;
 			children = (
-				EACF9DFF2801914D004A1677 /* ActionBar */,
+				EACF9DFF2801914D004A1677 /* ActionBarPlayground */,
 				EACF9DF128019103004A1677 /* ActionBarExampleApp.swift */,
 			);
 			path = ActionBarExample;
 			sourceTree = "<group>";
 		};
-		EACF9DFF2801914D004A1677 /* ActionBar */ = {
+		EACF9DFF2801914D004A1677 /* ActionBarPlayground */ = {
 			isa = PBXGroup;
 			children = (
 				EACF9E1128019190004A1677 /* ActionBarPlayground.swift */,
 				EAD583F0280D4C4500FFCB55 /* ActionBarPlayground+SwiftUI.swift */,
 				EAD583F2280D6D8200FFCB55 /* ActionButtonVariants.swift */,
-				EACF9E002801914D004A1677 /* Manager */,
-				EACF9E042801914D004A1677 /* Model */,
-				EACF9E062801914D004A1677 /* View */,
 			);
-			path = ActionBar;
-			sourceTree = "<group>";
-		};
-		EACF9E002801914D004A1677 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				EACF9E012801914D004A1677 /* ActionBarManager+SwiftUI.swift */,
-				EACF9E022801914D004A1677 /* ActionBarManager.swift */,
-				EACF9E032801914D004A1677 /* ActionBarManagerObjcWrapper.swift */,
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		EACF9E042801914D004A1677 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				EACF9E052801914D004A1677 /* ActionBarProperties.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		EACF9E062801914D004A1677 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				EACF9E072801914D004A1677 /* ActionBarView.swift */,
-				EACF9E082801914D004A1677 /* ActionBarButtonView.swift */,
-				EACF9E092801914D004A1677 /* ActionBarTitlesView.swift */,
-			);
-			path = View;
+			path = ActionBarPlayground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +89,7 @@
 			name = ActionBarExample;
 			packageProductDependencies = (
 				EACF9E15280199E8004A1677 /* PureLayout */,
+				EAF544322815516400EBEFE9 /* ActionBar */,
 			);
 			productName = ActionBarExample;
 			productReference = EACF9DEE28019103004A1677 /* ActionBarExample.app */;
@@ -163,6 +121,7 @@
 			mainGroup = EACF9DE528019103004A1677;
 			packageReferences = (
 				EACF9E14280199E8004A1677 /* XCRemoteSwiftPackageReference "PureLayout" */,
+				EAF544312815516400EBEFE9 /* XCRemoteSwiftPackageReference "ActionBar" */,
 			);
 			productRefGroup = EACF9DEF28019103004A1677 /* Products */;
 			projectDirPath = "";
@@ -189,16 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAD583F1280D4C4500FFCB55 /* ActionBarPlayground+SwiftUI.swift in Sources */,
-				EACF9E0D2801914D004A1677 /* ActionBarProperties.swift in Sources */,
-				EACF9E0A2801914D004A1677 /* ActionBarManager+SwiftUI.swift in Sources */,
-				EACF9E0C2801914D004A1677 /* ActionBarManagerObjcWrapper.swift in Sources */,
 				EACF9E1228019190004A1677 /* ActionBarPlayground.swift in Sources */,
 				EACF9DF228019103004A1677 /* ActionBarExampleApp.swift in Sources */,
 				EAD583F3280D6D8200FFCB55 /* ActionButtonVariants.swift in Sources */,
-				EACF9E0B2801914D004A1677 /* ActionBarManager.swift in Sources */,
-				EACF9E0F2801914D004A1677 /* ActionBarButtonView.swift in Sources */,
-				EACF9E102801914D004A1677 /* ActionBarTitlesView.swift in Sources */,
-				EACF9E0E2801914D004A1677 /* ActionBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +363,14 @@
 				minimumVersion = 3.0.0;
 			};
 		};
+		EAF544312815516400EBEFE9 /* XCRemoteSwiftPackageReference "ActionBar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kijubei/ActionBar";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -418,6 +378,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = EACF9E14280199E8004A1677 /* XCRemoteSwiftPackageReference "PureLayout" */;
 			productName = PureLayout;
+		};
+		EAF544322815516400EBEFE9 /* ActionBar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAF544312815516400EBEFE9 /* XCRemoteSwiftPackageReference "ActionBar" */;
+			productName = ActionBar;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

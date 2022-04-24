@@ -7,6 +7,9 @@
 
 import Foundation
 import UIKit
+import ActionBar
+
+typealias ABP = ActionBarProperties
 
 extension ActionBarProperties
 {

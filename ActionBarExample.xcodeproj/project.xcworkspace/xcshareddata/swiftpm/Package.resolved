@@ -1,6 +1,15 @@
 {
   "pins" : [
     {
+      "identity" : "actionbar",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Kijubei/ActionBar",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d3dc647f547e3e34e0eb4f2bd316e596a29592e3"
+      }
+    },
+    {
       "identity" : "purelayout",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/PureLayout/PureLayout.git",
